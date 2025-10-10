@@ -50,6 +50,7 @@ printOut("--- Part 4 -----------------------------------------------------------
 /* Put your code below here!*/
 
 const part4Minutes = 6322.52;
+
 let part4Rest = part4Minutes / (24 * 60);
 const part4Days = Math.floor(part4Rest);
 
@@ -86,7 +87,6 @@ let dollarToNok = dollar * usdToNokRate;
 let nokToUsdRate = usd / nok;
 let kronerToUsd = dollarToNok * nokToUsdRate;
 
-//let NokAnsw = Math.round(kronertoUsd)
 
 printOut(dollar + " USD = " + Math.round(dollarToNok) + " NOK.");
 printOut(Math.round(dollarToNok) + " NOK = " + kronerToUsd + " USD");
