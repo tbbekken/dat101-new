@@ -48,20 +48,45 @@ const MovieGenre = [
 //--- Part 1 ----------------------------------------------------------------------------------------------
 /* Put your code below here!*/
 
+
+
 //--- Part 2 ----------------------------------------------------------------------------------------------
 /* Put your code below here!*/
+
+
 
 //--- Part 3 ----------------------------------------------------------------------------------------------
 /* Put your code below here!*/
 
+const chktask3 = document.getElementByName ("task3");
+const cmdTask3CheckAnswer = document.getElementById("cmdTask3CheckAnswer");
+function cmdTask3CheckAnswerClick(){
+  for (let i = 0; i < chktask3.lenght; i++){
+    const chkBox = chktask3[i];
+    console.log (`chkBox.checked[${i}].checked = ${chkBox.checked}`);
+    
+  }
+}
+cmdTask3CheckAnswer.addEventListener("click", cmdTask3CheckAnswerClick);
+
 //--- Part 4 ----------------------------------------------------------------------------------------------
 /* Put your code below here!*/
+
+
 
 //--- Part 5 ----------------------------------------------------------------------------------------------
 /* Put your code below here!*/
 
+
+
 //--- Part 6 ----------------------------------------------------------------------------------------------
 /* Put your code below here!*/
 
+
+
+
 //--- Part 7 ----------------------------------------------------------------------------------------------
 /* Put your code below here!*/
+
+
+
